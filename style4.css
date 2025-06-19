@@ -1211,7 +1211,7 @@ h2 {
   justify-content: center;
 }
 .divhead1{
-  width: 40%;
+  width: 100%;
   height: 20%;
   display: flex;
   flex-direction: column;
@@ -1222,11 +1222,11 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 50%;
+  width: 20%;
   margin-top: 5px;
   /* background-color: yellow; */
 }
-.firsthr1 {
+.firsthr1{
   width: 15px;
   height: 5px;
   background-color: red;
@@ -1236,46 +1236,9 @@ h2 {
   height: 5px;
   background-color: gray;
 }
-.div10img{
-  width: 40%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-}
-.imagesize4{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.div10img:hover{
-  border: 1px solid black;
-  box-shadow: rgba(141, 134, 134, 0.24) 0px 3px 8px;
-}
-.imgcon4{
-  width: 100%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
-  font-size: 15px;
-}
-.symcon4 {
-  width: 40%;
-  height: 40%;
-  display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center
-}
 .div1img{
   width: 40%;
-  height: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1298,6 +1261,38 @@ h2 {
   font-size: 15px;
 }
 .symcon1 {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center
+}
+.div10img{
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imagesize4{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcon4{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 15px;
+}
+.symcon4 {
   width: 40%;
   height: 40%;
   display: flex;
